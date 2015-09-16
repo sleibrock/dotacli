@@ -16,7 +16,7 @@ Simply get a copy of Pip working on your OS to install Dota CLI.
 
 
 .. sourcecode:: console
-     $ test
+    $ test
 
 This will require administrator privileges (so it may require a sudo on Unix)
 
@@ -26,7 +26,7 @@ Usage
 Just call
 
 .. sourcecode:: console
-     $ dota-matches
+    $ dota-matches
 
 and a list of will be shown in your terminal. Width of the text is variable 
 to the longest team name listed to keep it centered.
