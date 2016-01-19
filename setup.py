@@ -3,6 +3,11 @@
 
 from setuptools import setup
 import Diretide.info as info
+import os
+
+old_readme = open("README.md","r")
+with open("README.rst", "w") as f:
+    f.write(old_readme.read())
 
 long_desc = """
 Check Dota 2 Tournament Matches from the command line
@@ -41,4 +46,5 @@ conf = {
             }
         }
 setup(**conf)
+os.remove("README.rst")
 # end
